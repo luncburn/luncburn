@@ -6,9 +6,9 @@ We will start collecting the data, daily, and then, we will add several predicti
 
 Currently, we are collecting the data from Coin Marketcap.
 
-header.csv is the header file
+header.csv is the header file, tab delimited
 
-data.csv is the collected data
+data.csv is the collected data, tab delimited
 
 
 Each day, we are making one call and update the data.csv table
