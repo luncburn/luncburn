@@ -71,6 +71,6 @@ In other words, the formula is:
 ((circulating_supply - market_cap) * price) / (volume_24h * 0.012)
 
 ### Why is this worng?
-It is wrong simply because we are assuming that circulating_supply, market_cap, volume_24h and price are constants.  This is by no means true, and therefore, we can apply the power of AI to help us predict the actual number of days.  However, we need to collect the data first. Once enough data is collected, this page will be updated with the predictions.
+It is wrong simply because we are assuming that circulating_supply, market_cap, volume_24h and price are constants.  This is by no means true, and therefore, we can apply the power of AI to help us predict the actual number of days.  However, we need to collect the data first. Once enough data is collected, this page will be updated with the predictions, prediction graphs, method explanations etc.
 
 
