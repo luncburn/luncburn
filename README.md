@@ -56,4 +56,21 @@ last_updated_p_ts - last update as linux timestamp
 calculated_burn_days - how many days it will take to burn LUNC
 
 
+## Note on predicted days
+
+First, the circulating supply in LUNC and the market cap in USD must be equal for the price to be $1
+
+Therefore, we calculate this difference as amount of tokens to be burned
+
+Then, we apply the price to amount of tokens to see that is their USD value
+
+We appy 1.2% to daily volume, and then simply derive how many days it would take to burn all USD.
+
+
+In other words, the formula is:
+((circulating_supply - market_cap) * price) / (volume_24h * 0.012)
+
+### Why is this worng?
+It is wrong simply because we are assuming that circulating_supply, market_cap, volume_24h and price are constants.  This is by no means true, and therefore, we can apply the power of AI to help us predict the actual number of days.  However, we need to collect the data first. Once enough data is collected, this page will be updated with the predictions.
+
 
