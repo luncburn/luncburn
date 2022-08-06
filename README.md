@@ -4,10 +4,7 @@
 The purpose of this page is to share the collected data on the LUNC coin, to provide the data necessary to answer only one question: "''When is LUNC going to reach $1.0 per 1 LUNC coin?''"
 
 
-We will start collecting the data, daily, and then, we will add several prediction algorithms such as time series prediction, etc.
-
-
-Currently, we are collecting the data from Coin Marketcap.
+Currently, we are collecting the data from Coin Marketcap, and it will take several months after the burn algorithm is implemented to do some valid predictions. The data.csv is updated only once per day.
 
 
 '''header.csv''' is the header file
