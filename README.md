@@ -56,7 +56,7 @@ last_updated_p_ts - last update as linux timestamp
 calculated_burn_days - how many days it will take to burn LUNC
 
 
-## Note on predicted days
+## Note on calculated_burn_days
 
 First, the circulating supply in LUNC and the market cap in USD must be equal for the price to be $1
 
