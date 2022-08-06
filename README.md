@@ -29,4 +29,31 @@ price - current LUNC price
 
 volume_24h - How much money has been transferred in the past 24hr
 
-volume_change_24h,percent_change_1h,percent_change_24h,percent_change_7d,percent_change_30d,percent_change_60d,percent_change_90d,market_cap,market_cap_dominance,fully_diluted_market_cap,last_updated_p,last_updated_p_ts,calculated_burn_days
+volume_change_24h - The change in 24h volume
+
+percent_change_1h - as in variable name
+
+percent_change_24h - as in variable name
+
+percent_change_7d - as in variable name
+
+percent_change_30d - as in variable name
+
+percent_change_60d - as in variable name
+
+percent_change_90d - as in variable name
+
+market_cap - as in variable name
+
+market_cap_dominance - as in variable name
+
+fully_diluted_market_cap - as in variable name
+
+last_updated_p - when was percentage data last updated
+
+last_updated_p_ts - last update as linux timestamp
+
+calculated_burn_days - how many days it will take to burn LUNC
+
+
+
