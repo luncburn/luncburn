@@ -15,45 +15,46 @@ Each day, we are making one call and update the data.csv table
 
 
 The header.csv contains:
-total_supply - the total supply that has been minted (not to be confused with a circulating supply)
 
-circulating_supply - The amount of circulating LUNC coins
+total_supply - the total supply that has been minted (not to be confused with a circulating supply) [LUNC]
 
-cmc_rank - How does LUNC compare to other coins on the rank list?
+circulating_supply - The amount of circulating LUNC coins [LUNC]
 
-last_updated - when was the information in data.csv file updated?
+cmc_rank - How does LUNC compare to other coins on the rank list? [Number]
 
-last_updated_ts - timestamp presentation of last updated to do the time series
+last_updated - when was the information in data.csv file updated? [Date]
 
-price - current LUNC price
+last_updated_ts - timestamp presentation of last updated to do the time series [Number]
 
-volume_24h - How much money has been transferred in the past 24hr
+price - current LUNC price [USD]
 
-volume_change_24h - The change in 24h volume
+volume_24h - How much money has been transferred in the past 24hr [USD]
 
-percent_change_1h - self-explanatory
+volume_change_24h - The change in 24h volume [USD]
 
-percent_change_24h - self-explanatory
+percent_change_1h - self-explanatory [Percent USD]
 
-percent_change_7d - self-explanatory
+percent_change_24h - self-explanatory [Percent USD]
 
-percent_change_30d - self-explanatory
+percent_change_7d - self-explanatory [Percent USD]
 
-percent_change_60d - self-explanatory
+percent_change_30d - self-explanatory [Percent USD]
 
-percent_change_90d - self-explanatory
+percent_change_60d - self-explanatory [Percent USD]
 
-market_cap - self-explanatory
+percent_change_90d - self-explanatory [Percent USD]
 
-market_cap_dominance - self-explanatory
+market_cap - self-explanatory [LUNC]
+
+market_cap_dominance - self-explanatory 
 
 fully_diluted_market_cap - self-explanatory
 
-last_updated_p - when was percentage data last updated
+last_updated_p - when was percentage data last updated [Date]
 
-last_updated_p_ts - last update as linux timestamp
+last_updated_p_ts - last update as linux timestamp [Number]
 
-calculated_burn_days - how many days it will take to burn LUNC
+calculated_burn_days - how many days it will take to burn LUNC [Days]
 
 
 ## Note on calculated_burn_days
