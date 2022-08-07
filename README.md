@@ -11,7 +11,6 @@ header.csv is the header file, tab delimited
 data.csv is the collected data, tab delimited
 
 
-Each day, we are making one call and update the data.csv table
 
 
 The header.csv contains:
